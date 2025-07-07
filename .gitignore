@@ -1,13 +1,13 @@
-.env
-*.log
-venv/
+docker/airflow/*
+!docker/airflow/dags/
+!docker/airflow/dags/**
 
-airflow/*
-!airflow/dags/
-!airflow/dags/**
+airflow/logs/
+airflow/__pycache__/
+airflow/plugins/
 
 postgres_data/
 pgadmin_data/
-airflow/logs/
-airflow/__pycache__/
-airflow/plugins
+.env
+*.log
+venv/
