@@ -2,6 +2,10 @@
 *.log
 venv/
 
+airflow/*
+!airflow/dags/
+!airflow/dags/**
+
 postgres_data/
 pgadmin_data/
 airflow/logs/

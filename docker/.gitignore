@@ -2,6 +2,10 @@
 pgadmin_data/
 postgres_data/
 
+airflow/*
+!airflow/dags/
+!airflow/dags/**
+
 airflow/logs/
 airflow/__pycache__/
 airflow/plugins
