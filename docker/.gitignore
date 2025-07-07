@@ -1,0 +1,9 @@
+.env
+pgadmin_data/
+postgres_data/
+
+airflow/logs/
+airflow/__pycache__/
+airflow/dags/__pycache__
+
+*.log
